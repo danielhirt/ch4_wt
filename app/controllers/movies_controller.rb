@@ -1,4 +1,6 @@
 # This file is app/controllers/movies_controller.rb
+require byebug
+
 class MoviesController < ApplicationController
   def index
     @movies = Movie.all
